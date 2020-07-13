@@ -1,0 +1,37 @@
+import 'package:flutter/cupertino.dart';
+import 'package:photohub/model/catmodel.dart';
+String apikey = "563492ad6f91700001000001de47bbb613fe43af9dcbe96be4e2bd0d";
+List<catmodel> getcat(){
+List <catmodel> categories  = new List();
+catmodel catwmodel  = new catmodel();
+catwmodel = new catmodel();
+catwmodel.imgurl = "https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+catwmodel.Catname = "Wild Life";
+categories.add(catwmodel);
+catwmodel = new catmodel();
+catwmodel.imgurl = "https://images.pexels.com/photos/2130793/pexels-photo-2130793.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+catwmodel.Catname = "Street Art";
+categories.add(catwmodel);
+catwmodel = new catmodel();
+catwmodel.imgurl = "https://images.pexels.com/photos/3573351/pexels-photo-3573351.png?auto=compress&cs=tinysrgb&dpr=1&w=500";
+catwmodel.Catname = "Nature";
+categories.add(catwmodel);
+catwmodel = new catmodel();
+catwmodel.imgurl = "https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+catwmodel.Catname = "City";
+categories.add(catwmodel);
+catwmodel = new catmodel();
+catwmodel.imgurl = "https://images.pexels.com/photos/21696/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+catwmodel.Catname = "Motivation";
+categories.add(catwmodel);
+catwmodel = new catmodel();
+catwmodel.imgurl = "https://images.pexels.com/photos/1231692/pexels-photo-1231692.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+catwmodel.Catname = "Bikes";
+categories.add(catwmodel);
+catwmodel = new catmodel();
+catwmodel.imgurl = "https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+catwmodel.Catname = "Cars";
+categories.add(catwmodel);
+catwmodel = new catmodel();
+return categories;
+}
