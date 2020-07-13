@@ -1,6 +1,6 @@
 # photohub
 
-A new Flutter application.
+online wallpaper flutter project using pexels api
 
 ## Getting Started
 
